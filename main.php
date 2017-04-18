@@ -15,6 +15,8 @@
 <body>
   <main>
   <h1>Progressive Tax Calculator</h1>
+
+  <!-- Query form; if there are error messages from incorrect entry, they will be displayed below -->
   <p class="info">Welcome to the tax calculator. Please enter your values below:</p>
   <?php if (!empty($error_messages)) { ?>
     <p class="error"><?php echo implode("<br>", $error_messages); ?></p>

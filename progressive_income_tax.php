@@ -76,6 +76,7 @@
      return $effectiveTaxRate;
    }
 
+   //Number validation function
   function numberValidation($grossIncome, $deductible, $exemption) {
     $error_messages = array();
     if ($grossIncome === FALSE) {
@@ -108,6 +109,7 @@
 </head>
 <body>
   <main>
+    <!-- Displaying outputs below -->
    <h1>Progressive Tax Calculator</h1>
     <p class="info">Below are your calculated values:</p>
 

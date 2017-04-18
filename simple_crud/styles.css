@@ -3,12 +3,12 @@ body {
     font-family: Calibri, arial;
 }
 main {
-    width: 500px;
+    width: 800px;
     margin: 0 auto;
     padding: 1em;
     background: AliceBlue;
 }
-h1 {
+h1, h2 {
     margin-top: 0;
     color: green;
     font-style: bold;
@@ -39,4 +39,23 @@ label {
 }
 br {
     clear: left;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: maroon;
+    color: white;
+    text-align: center;
+}
+
+td {
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 15px;
 }
