@@ -1,0 +1,44 @@
+body {
+    font-family: Calibri, arial;
+}
+main {
+    width: 500px;
+    margin: 0 auto;
+    padding: 1em;
+    background: AliceBlue;
+}
+h1 {
+    margin-top: 0;
+    color: green;
+    font-style: bold;
+}
+label {
+    width: 10em;
+    float: left;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    font-style: bold;
+    font-color: maroon;
+}
+
+#data span {
+    padding-left: .25em;
+}
+.form input {
+    float: left;
+    width: 10em;
+    margin-bottom: .5em;
+}
+
+.button input {
+    float: left;
+    margin-bottom: .5em;
+}
+.error {
+    font-style: italic;
+    color: red;
+    border: solid 2px black;
+}
+br {
+    clear: left;
+}
